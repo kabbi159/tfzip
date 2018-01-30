@@ -9,7 +9,7 @@ This project aims to implement a TensorFlow version of the Pruning neural networ
 ### Pruning
 - Initial results:
   - Running `compression_test.py` can generate uncompressed_model and compressed_model protobuf files from a simple MNIST model for comparison. (Original version is not optimized for tensorflow 1.4.0 version, it causes error and warning. Also, it set threshold constant value for all layers.)
-  - Running 'compression_test2.py' can generate uncompressed_model and compressed_model protobuf files from a simple MNIST model for comparison. (This version is optimized for tensorflow 1.4.0 version, also change choosing threshold by setting standard deviation for each layers.)
+  - Running `compression_test2.py` can generate uncompressed_model and compressed_model protobuf files from a simple MNIST model for comparison. (This version is optimized for tensorflow 1.4.0 version, also change choosing threshold by setting standard deviation for each layers.) : Edited by kabbi159
   - Note that there is no difference in the protobuf file sizes until you apply `gzip` or some other compression tool.
   - The provided protobuf files were generated using a LeNet-300-100 model trained for MNIST digit classification.
   
