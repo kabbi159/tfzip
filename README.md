@@ -16,7 +16,7 @@ This project aims to implement a TensorFlow version of the Pruning neural networ
 |              | Parameters | Parameter Compression | Protobuf Size | Protobuf Size (gzipped) | Protobuf Compression | Accuracy |
 |--------------|------------|-----------------------|---------------|-------------------------|----------------------|----------|
 | Uncompressed | ~267k      |                       | 3.2MB         | ~2.8MB                  |                      | 98.19%   |
-| Compressed  | ~27k       | **~10x**              | 3.2MB         | ~490kB                  | **~6x**              | 97.31%   |
+| Compressed   | ~27k       | **~10x**              | 3.2MB         | ~490kB                  | **~6x**              | 97.31%   |
 | Compressed2  | ~18k       | **~15x**              | 3.2MB         | ~290kB                  | **~10x**             | 97.38%   |
 - Next steps:
   - Improve accuracy preservation and increase compression ratio.
