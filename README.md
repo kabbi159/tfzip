@@ -17,7 +17,7 @@ This project aims to implement a TensorFlow version of the Pruning neural networ
 |--------------|------------|-----------------------|---------------|-------------------------|----------------------|----------|
 | Uncompressed | ~267k      |                       | 3.2MB         | ~2.8MB                  |                      | 98.19%   |
 | Compressed   | ~27k       | **~10x**              | 3.2MB         | ~490kB                  | **~6x**              | 97.31%   |
-| Compressed(kabbi159)  | ~18k       | **~15x**              | 3.2MB         | ~290kB                  | **~10x**             | 97.38%   |
+| Compressed2(by kabbi159)  | ~18k       | **~15x**              | 3.2MB         | ~290kB                  | **~10x**             | 97.38%   |
 - Next steps:
   - Improve accuracy preservation and increase compression ratio.
     - [Learning both Weights and Connections for Efficient Neural Networks](http://arxiv.org/pdf/1506.02626v3.pdf) suggests ~12x parameter compression without loss of accuracy can be obtained for this architecture.  (maybe implemented by 'compression_test2.py')
